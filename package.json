@@ -1,0 +1,8 @@
+{
+  "name": "nixi-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nixi blue-themed rewards platform with admin console (sandbox/manual-review mode).",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=22"}
+}

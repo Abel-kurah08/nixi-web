@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": "usr_99c1988a0426cb4e",
+      "username": "Demo",
+      "email": "demo@example.com",
+      "passwordHash": "682bc8fc32570d235ad6065e6a3074c0:cf6229b214b31792d4d4f688bb94d77bf662e72048c4f3d644cde694c46db014",
+      "balance": 155000,
+      "ngnBalance": 0,
+      "level": 1,
+      "totalTaps": 0,
+      "activated": false,
+      "joinedAt": "2026-10-03T15:16:47.911Z",
+      "lastTapAt": null,
+      "bank": null,
+      "convertedAPX": 0
+    },
+    {
+      "id": "usr_7e47e957bc96766d",
+      "username": "abel",
+      "email": "lizziekujl@gmail.com",
+      "passwordHash": "582dc7e149faefab99b37bb30b2a9776:2594f90d910b46faf0e5d112a0ab9f28b36b57cd3699c5588a59034e8e99fbfa",
+      "balance": 155000,
+      "ngnBalance": 0,
+      "convertedAPX": 0,
+      "level": 1,
+      "totalTaps": 0,
+      "activated": false,
+      "joinedAt": "2026-10-13T00:43:17.138Z",
+      "lastTapAt": null,
+      "bank": null
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_816640b408d7dcac",
+      "userId": "usr_7e47e957bc96766d",
+      "type": "bonus",
+      "amount": 155000,
+      "meta": {
+        "label": "Welcome bonus"
+      },
+      "createdAt": "2026-10-13T00:43:17.138Z"
+    },
+    {
+      "id": "tx_9275ef34887572b4",
+      "userId": "usr_99c1988a0426cb4e",
+      "type": "conversion",
+      "amount": -1000,
+      "meta": {
+        "fee": 71,
+        "receive": 929
+      },
+      "createdAt": "2026-10-06T00:53:23.197Z"
+    },
+    {
+      "id": "tx_993278d030eded4b",
+      "userId": "usr_99c1988a0426cb4e",
+      "type": "bonus",
+      "amount": 155000,
+      "meta": {
+        "label": "Welcome bonus"
+      },
+      "createdAt": "2026-10-03T15:16:47.912Z"
+    }
+  ],
+  "conversionRequests": [
+    {
+      "id": "conv_7cef7972ffa4d694",
+      "userId": "usr_99c1988a0426cb4e",
+      "amount": 1000,
+      "fee": 71,
+      "receive": 929,
+      "status": "completed",
+      "createdAt": "2026-10-06T00:53:23.197Z"
+    }
+  ],
+  "withdrawalRequests": [],
+  "activationRequests": [
+    {
+      "id": "act_4d704c8580c776a3",
+      "userId": "usr_7e47e957bc96766d",
+      "fee": 8300,
+      "bankName": "Moniepoint MFB",
+      "accountNumber": "0000000000",
+      "holder": "Nixi Platform",
+      "receiptName": "Census API testing guide.png",
+      "receiptFile": "receipt_dfab00cdacfdfa4d.png",
+      "status": "pending",
+      "createdAt": "2026-10-13T00:44:06.805Z"
+    },
+    {
+      "id": "act_a2781550240f11f8",
+      "userId": "usr_99c1988a0426cb4e",
+      "fee": 10000,
+      "bankName": "Moniepoint MFB",
+      "accountNumber": "0000000000",
+      "holder": "Nixi Platform",
+      "receiptName": "test.png",
+      "receiptFile": "receipt_83538593502f5841.png",
+      "status": "pending",
+      "createdAt": "2026-10-03T15:16:49.237Z"
+    }
+  ],
+  "settings": {
+    "conversionFee": 0.071,
+    "activationFee": 8300,
+    "activationBankName": "Moniepoint MFB",
+    "activationAccountNumber": "0000000000",
+    "activationAccountHolder": "Nixi Platform",
+    "brand": "Nixi",
+    "mode": "sandbox",
+    "upgradeAccounts": {
+      "2": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "3": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "4": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      },
+      "5": {
+        "bankName": "Moniepoint MFB",
+        "accountNumber": "0000000000",
+        "accountHolder": "Nixi Platform"
+      }
+    }
+  },
+  "upgradeRequests": []
+}
